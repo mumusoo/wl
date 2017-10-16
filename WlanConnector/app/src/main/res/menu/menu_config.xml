@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.lechen.wlanconnector.MainActivity">
+    <item
+        android:icon="@mipmap/upload"
+        android:id="@+id/action_commit"
+        android:orderInCategory="100"
+        android:title="@string/action_commit"
+        app:showAsAction="always" />
+    <item
+        android:icon="@mipmap/refresh"
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+</menu>

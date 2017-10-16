@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.lechen.wlanconnector.view.SwipeLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/deleteHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#24aff4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="删除网络"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_customer_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/wifi" />
+
+            <RelativeLayout
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="6dp"
+                    android:text="192.168.1.1:8062"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/size_one_title" />
+
+                <TextView
+                    android:id="@+id/sbName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="@dimen/size_three_title"
+                    android:text="jxtvnet-zmp9a" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/sbpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+            <ImageView
+                android:layout_marginRight="@dimen/dimen_interval"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/icon_enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </com.lechen.wlanconnector.view.SwipeLayout>
+
+
+</LinearLayout>

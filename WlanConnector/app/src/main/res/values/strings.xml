@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">宽带配置</string>
+    <!--<string name="app_name">WAN配置</string>-->
+    <string name="action_settings">配置</string>
+    <string name="title_activity_config">配置</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">IP地址</string>
+    <string name="prompt_password">端口号 (可选项)</string>
+    <string name="action_sign_in">连  接</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">IP为必填项</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">IP为必填项</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- Strings related to config -->
+
+    <string name="prompt_protocol">通信协议</string>
+    <string name="prompt_username">用户名</string>
+    <string name="prompt_pwd">密码</string>
+    <string name="action_commit">提交</string>
+    <string name="action_refresh">刷新</string>
+    <string name="prompt_ip">IP地址</string>
+    <string name="prompt_zwy">子网掩码</string>
+    <string name="prompt_wg">缺省网关</string>
+    <string name="prompt_dns">首选DNS服务器</string>
+    <string name="prompt_BDNS">备用DNS服务器</string>
+    <string-array name="spingarr">
+        <item>DHCP</item>
+        <item>STATIC</item>
+        <item>PPPOE</item>
+    </string-array>
+    <string-array name="arrcontent">
+        <item>删除</item>
+    </string-array>
+    <string-array name="arropen">
+        <item>禁用</item>
+        <item>启用</item>
+    </string-array>
+    <string-array name="arrservice">
+        <item>INTERNET</item>
+        <item>TR069</item>
+        <item>VOIP</item>
+        <item>OTHER</item>
+        <item>INTERNET_TR069</item>
+        <item>TR069_VOIP</item>
+    </string-array>
+
+    <string name="rule_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="ipConnector">IP连接</string>
+    <string name="appName">宽带配置</string>
+</resources>
